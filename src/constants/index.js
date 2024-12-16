@@ -33,24 +33,28 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Projects",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "About",
+    url: "#how-to-use",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Services",
+    url: "#pricing",
   },
   {
     id: "3",
@@ -75,7 +79,13 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  logo1, 
+  logo2,
+  logo3, 
+  logo4, 
+  logo5,
+];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -127,18 +137,19 @@ export const roadmap = [
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+// export const collabText =
+//   " Workflow of SR Solutions on World Wide Platforms";
 
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
+    text: "Workflow of SR Solutions on World Wide Platforms",
   },
   {
     id: "1",
     title: "Smart Automation",
+    text: "Automated task makes us more efficient",
   },
   {
     id: "2",
@@ -244,16 +255,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Employee Management System",
+    text: "A system to manage employee records, attendance, payroll, leaves, and performance evaluation. It focuses on CRUD operations, user authentication, and reporting features.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "E-Commerce Platform",
+    text: "Develop a scalable e-commerce website with features like product catalogs, search filters, shopping carts, payment gateways, and order tracking.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +272,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: " IT Asset Management System",
+    text: "Software to track hardware, software, and digital assets of an organization. Includes inventory, lifecycle management, and automated alerting.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Real-Time Chat Application",
+    text: "A web-based chat application with real-time messaging, group chats, file sharing, and user presence indicators. Ideal for mastering WebSockets and asynchronous communication.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +289,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Bug Tracking System",
+    text: "A tool for logging and tracking issues/bugs during software development, including reporting, assigning, and monitoring their resolution progress.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Network Monitoring System",
+    text: "A tool to monitor network traffic, detect intrusions, and analyze network performance. It can include features like real-time alerts, bandwidth usage visualization, and anomaly detection.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

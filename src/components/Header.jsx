@@ -68,15 +68,15 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
+          href="#signup" //sign Up page
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
-          New account
+          Sign Up
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" href="#login"> 
           Sign in
         </Button>
-
+{/* login page */}
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
