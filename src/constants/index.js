@@ -137,9 +137,9 @@ export const roadmap = [
   },
 ];
 
-// export const collabText =
-//   " Workflow of SR Solutions on World Wide Platforms";
+export const collabText ="Theme ";
 
+// export const collabText1 = "";
 export const collabContent = [
   {
     id: "0",
@@ -149,11 +149,12 @@ export const collabContent = [
   {
     id: "1",
     title: "Smart Automation",
-    text: "Automated task makes us more efficient",
+    text: "Automate your workflow with our AI-powered tools",
   },
   {
     id: "2",
     title: "Top-notch Security",
+    text: "Secured with the latest encryption technologies",
   },
 ];
 
